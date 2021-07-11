@@ -1,32 +1,143 @@
-body {
-    font-family: 'Roboto Mono',monospace;
-    text-align:center;
-    background-image: url('https://batatacode.s3.us-east-2.amazonaws.com/modulo04/fundo.jpg');
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 0, 0, 0.3);
-  }
+/* Coisas do Header */
+header{
+    background: #00113f;
+}
 
-  .container {
-    text-align: center;
-    padding: 20px;
-  }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
-  .div {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 10 0 5px;
+.capa{
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    opacity: 40%;
+}
+
+.principal-header{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.me-picture{
+    margin: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+    padding: 2px;
+    box-shadow: 10px 10px 5px black;
+    
+}
+
+.titulo-nome{
+    margin: 50px 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 450px;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.titulo-profissao{
+    margin: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    margin: 80px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #009e4f;
+    text-decoration: underline;
+}
+
+main {
+    background: linear-gradient(#00113f,#95b1ff);
+}
+
+.informacoes-sobre, .informacoes-educacao{
+    padding: 50px 50px 0;
+    color: #FFFFFF;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 21px;
     text-align: left;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 10px;
-    text-align: left;
-  }
-  
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.informacoes-sobre ul{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 15px;
+    box-shadow: 5px 5px 2px black;
+}
+
+.informacoes-sobre li{
+    margin: 1% 1.5%;
+    list-style: circle;
+}
+
+.informacoes-sobre p{
+    margin: 1% 1.5%;
+}
+
+.informacoes-educacao{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 15px;
+    box-shadow: 5px 5px 2px black;
+    margin: 20px 50px;
+}
+
+.informacoes-educacao h2{
+    padding: 15px 0px;
+}
+
+.cursos{
+    border-radius: 10px;
+    border: 2px dashed black;
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+.cursos:hover{
+    border: 3px solid black;
+}
+
+footer{
+    background: #95b1ff;
+}
+
+.foot{
+    width: 100%;
+    height: 180px;
+}
